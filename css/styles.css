@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+.st-login{
+    background-color: grey;
+    background-image: url(../img/bg-horizon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#form-container{
+    background-color: #3b3b3b;
+    border-radius: 5px;
+    height: 350px;
+    left: calc(50% - 400px);
+    opacity: .9;
+    padding: 3em 2em;
+    position: fixed;
+    top: calc(50% - 175px);
+    width: 800px;
+    -webkit-box-shadow: 7px 9px 7px -7px rgba(0,0,0,1);
+    -moz-box-shadow: 7px 9px 7px -7px rgba(0,0,0,1);
+    box-shadow: 7px 9px 7px -7px rgba(0,0,0,1);
+}
+
+#signUp{
+    color: #949494;
+    width: 40%;
+}
+
+#signUp p{
+    padding: 2em 0;
+}
+
+#signUp a{
+    border: 1px solid #949494;
+    border-radius: 5px;
+    color: #949494;
+    padding: .5em 3em;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+#signUp a:hover{
+    background-color: #949494;;
+    color:black;
+}
+
+#loginSection{
+    background-color: #ececec;
+    border-radius: 5px;
+    color: black;
+    padding: 4em 1.5em;
+    position: absolute;
+    top: -10%;
+    right: 2em;
+    width: 50%;
+    height: 120%;
+    -webkit-box-shadow: 7px 9px 7px -7px rgba(0,0,0,1);
+    -moz-box-shadow: 7px 9px 7px -7px rgba(0,0,0,1);
+    box-shadow: 7px 9px 7px -7px rgba(0,0,0,1);
+}
+
+#loginSection h2{
+    color: #ed8777;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+form .line{
+    padding: .5em 0;
+    border-bottom: 1px solid grey;
+}
+
+form .line input{
+    background-color: #ececec;
+    border: none;
+    color: #949494;
+    font-size: 1em;
+    height: 35px;
+    margin-bottom: .5em;
+    width: 90%;
+}
+
+form .line i{
+    color: grey;
+}
+
+#buttons{
+    margin: 3em 0;
+}
+
+#forgot{
+    border: none;
+    color: #949494;
+    transition: .3s;
+    width: 45%  
+}
+
+#forgot:hover{
+    color: black;
+}
+
+#login{
+    background-color: #ed8777;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 1em;
+    text-transform: uppercase;
+    transition: .3s;
+    width: 45%;
+}
+
+#login:hover{
+    background-color: #b1695e;
+}
